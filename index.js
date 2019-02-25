@@ -5,9 +5,9 @@ const logDriverNames = (drivers) => {
   });
 };
 
-const logDriversByHometown = (drivers, position) => {
+const logDriversByHometown = (drivers, hometow\\) => {
   logDriverNames(drivers.filter( (element) => {
-    return element.position === position;
+    return element.hometown === hometown;
   }))
 }
 
