@@ -19,8 +19,8 @@ const driversByRevenue = (drivers) => {
   })
 };
 
-const driversByName = function (driversName) {
-  return driversName.map( function (element) {
+const driversByName = (driversName) => {
+  return driversName.map( (element) => {
     return element;
   }).sort( function (d, e) {
     return d.name.localeCompare(e.name);
